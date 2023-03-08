@@ -98,7 +98,12 @@ console.log(state)
             alignItems: "center",
           }}
         >
-          <Typography component="h1" variant="h5" style={{ marginTop: "20px" }}>
+          <Typography
+            className="style"
+            component="h1"
+            variant="h5"
+            style={{ marginTop: "15px" }}
+          >
             Edit Employee Details
           </Typography>
           <Box
@@ -234,10 +239,9 @@ console.log(state)
                 </FormControl>
               </Grid>
               <Grid>
-                <FormLabel id="skills">
-                  Skills
-                </FormLabel>
-                <Box id='box'
+                <FormLabel id="skills">Skills</FormLabel>
+                <Box
+                  id="box"
                   onChange={handleCheckbox}
                   value={technicalSkills}
                   name="technicalSkills"

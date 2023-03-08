@@ -115,7 +115,7 @@ export default function AddRecipe() {
             alignItems: "center",
           }}
         >
-          <Typography component="h1" variant="h5" style={{ marginTop: "20px" }}>
+          <Typography className="style" component="h1" variant="h5" style={{ marginTop: "15px" }}>
             Add Employee Details
           </Typography>
           <Box
